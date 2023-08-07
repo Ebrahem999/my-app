@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
   return (
@@ -7,9 +10,9 @@ const Header = () => {
         <h1>HeMa</h1>
         <ul className="flex">
           <li className="main-list">
-            <a className="main-link" href="#">
+            <NavLink className="main-link" to="/html">
               HTML{" "}
-            </a>
+            </NavLink>
             <ul className="sub-ul">
               <li>
                 <a href>Full Course</a>
@@ -23,9 +26,9 @@ const Header = () => {
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="#">
+            <NavLink className="main-link" to="/css">
               CSS{" "}
-            </a>
+            </NavLink>
             <ul className="sub-ul">
               <li>
                 <a href>Full Course</a>
@@ -50,9 +53,9 @@ const Header = () => {
             </ul>
           </li>
           <li className="main-list">
-            <a className="main-link" href="#">
+            <NavLink className="main-link" to="/js">
               JavaScript{" "}
-            </a>
+            </NavLink>
             <ul className="sub-ul sub-of-js">
               <li>
                 <a href>coming soon🔥</a>

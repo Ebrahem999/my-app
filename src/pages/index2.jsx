@@ -1,24 +1,20 @@
-import React from 'react';
-import Header from '../comp/header';
+import React from "react";
+import Header from "../comp/header";
+import Footer from "../comp/footer";
 
 const Index2 = () => {
-    return (
-        <div>
-<Header></Header>
+  return (
+    <div>
+      <Header></Header>
 
       <main>
         HTML <br />
         Menu Bar <br />
         HTML &amp; CSS only
       </main>
-      <footer>
-        Designed and developed by Courses4Arab.com
-        <span>🧡</span>
-      </footer>
-      );
-
-        </div>
-    );
-}
+      <Footer></Footer>
+    </div>
+  );
+};
 
 export default Index2;
