@@ -1,17 +1,14 @@
 import React from "react";
 import Header from "../comp/header";
 import Footer from "../comp/footer";
+import Maincontent from "../comp/maincontent";
 
 const Index2 = () => {
   return (
     <div>
       <Header></Header>
 
-      <main>
-        HTML <br />
-        Menu Bar <br />
-        HTML &amp; CSS only
-      </main>
+      <Maincontent a="Html"></Maincontent>
       <Footer></Footer>
     </div>
   );
